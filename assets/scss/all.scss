@@ -1,5 +1,15 @@
-@import './layout/header.scss';
-@import './layout/footer.scss';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto:wght@300;400;500&display=swap');
 
+// BS
+@import "../node_modules/bootstrap/scss/functions"; 
+@import "./helpers/_variables"; // 自行定義的變數路徑
+@import "_reset";
+@import "../node_modules/bootstrap/scss/bootstrap"; // Bootstrap 完整原始碼
 
-@import './pages/index.scss';
+// layout
+@import './layout/_header';
+@import './layout/_footer';
+@import './layout/_sidebar';
+
+// page
+@import './pages/_utility';
